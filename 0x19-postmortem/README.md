@@ -19,13 +19,21 @@ To resolve the issue, the database team analyzed the deadlock and identified the
 
 **Corrective and Preventative Measures:**
 To prevent similar incidents from occurring in the future, we will take the following actions:
+
 •	Implement a more robust testing process for code changes to catch potential race conditions before deployment.
+
 •	Increase monitoring and alerting for database performance metrics to detect issues before they impact users.
+
 •	Improve documentation and communication among teams to facilitate faster incident resolution.
+
 Specific tasks to address the issue include:
+
 •	Review recent code changes and identify potential race conditions.
+
 •	Implement more extensive testing for code changes that involve database queries.
+
 •	Implement additional monitoring and alerting for database performance metrics.
+
 •	Document the incident and share the lessons learned with the team to improve incident response and prevent similar incidents from occurring in the future.
 
 **Misleading Investigation/Debugging Paths:**
